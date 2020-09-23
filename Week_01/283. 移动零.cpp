@@ -1,4 +1,4 @@
-//1
+//直接交换
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -14,7 +14,7 @@ public:
 
 
 
-//2
+//先搬移，后补0
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
